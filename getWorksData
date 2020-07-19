@@ -39,5 +39,5 @@ def get_content_from_txt(path):
 content_range = input("请输入想要搜索的范围：")
 df = get_content_from_txt(content_range)
 df.reset_index(inplace=True)
-df[10001:1000000].to_excel('result1.xlsx',)
+df[1000001:].to_excel('result2.xlsx',)
 print(df)
